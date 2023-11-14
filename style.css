@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    all: reset;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+h1{
+    font-weight:bold;
+    color: #1985a1;
+}
+
+h3{
+    color: #1985a1;
+    margin: 0 0 .1em 0;
+}
+
+h4{
+    font-weight: 500;
+}
+
+header {
+    text-align: center;
+    background-color: #dcdcdd;
+    padding: .5em
+}
+
+.search-box {
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#barraPesquisa {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0.9rem;
+    border-radius: 11px;
+    border-color: #dcdcdd;
+    border-width: 1px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #1985a1;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin: 1.5em auto;
+}
+
+button {
+    margin: 0 auto;
+    padding: 0.4em 2.8em;
+    font-size: larger;
+    background-color: #1985a1;
+    color: #ffffff;
+    border-radius: 18px;
+    border-width: 1px;
+    opacity: .9;
+}
+
+button:hover, :focus{
+    opacity: 1;
+    cursor: pointer;
+    
+    
+}
+
+.hide {
+    display: hide;
+}
+
+#countries-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.caixinha {
+    background-color: #dcdcdd;
+    display: flex;
+    flex-direction: column;
+    margin: 1.3em auto;
+    padding: .3em;
+    width: 13em;
+    height: 20em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.texts {
+    line-height: 1em;
+    font-size: .9em;
+    align-items:flex-start;
+    text-align: left;
+    margin: 0 0 0 .6em;
+    word-wrap: break-word;
+
+}
+
+img {
+    width: 9em;
+    height: 6em;
+    margin: 1.3em auto;
+    border-radius: 3px;
+    border-style:outset;
+}
+
